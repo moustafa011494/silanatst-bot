@@ -21,7 +21,7 @@ export default handler;
 
 async function jadwalsholat(kota) {
   try {
-    let { data } = await axios.get(`https://api.aladhan.com/v1/timingsByCity?city=${kota}&country=Morocco&method=8`);
+    let { data } = await axios.get(`https://api.aladhan.com/v1/timingsByCity?city=${kota}&country=Egypt&method=8`);
     let response = {
       subuh: data.data.timings.Fajr,
       dhuhur: data.data.timings.Dhuhr,
