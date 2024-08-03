@@ -1,6 +1,6 @@
 import { addExif } from '../lib/sticker.js'
 let handler = async (m, { conn, text }) => {
-if (!m.quoted) throw 'الرجاء الاشارة الى الملصق الذي تريد أن تغير حقوقه مثال : \n *.wm noureddine ouafy*'
+if (!m.quoted) throw 'الرجاء الاشارة الى الملصق الذي تريد أن تغير حقوقه مثال : \n *.wm Moustafa Shiref*'
 let stiker = false
 try {
 let [packname, ...author] = text.split('|')
@@ -15,7 +15,7 @@ console.error(e)
 if (Buffer.isBuffer(e)) stiker = e
 } finally {
 if (stiker) conn.sendFile(m.chat, stiker, 'wm.webp', '', m, false, { asSticker: true })
-else throw '*راسل صاحب البوت هناك مشكلة\n instagram.com/noureddine_ouafy*'
+else throw '*راسل صاحب البوت هناك مشكلة\n instagram.com/moustafa_shiref*'
 }}
 handler.help = ['wm']
 handler.tags = ['sticker']
