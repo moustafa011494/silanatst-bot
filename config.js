@@ -9,22 +9,22 @@ global.setting = {
  }
 
 global.owner = [
-['212717457920', 'Nour', true],
-['212605784394', 'silana', false],
+['201022647804', 'MostafaShiref', true],
+['201122522729', 'Moustafa', true],
 ['', '', false]
 ]
 
 global.info = {
- nomerbot: '212605784394',
- pairingNumber: '212693227969',
- nameown: 'Nour',
+ nomerbot: '201122522729',
+ pairingNumber: '201022647804',
+ nameown: 'MoustafaShiref',
  nomerown: '212717457920',
- packname: 'sticker by ',
- author: 'Noureddine',
- namebot: 'ꜱɪʟᴀɴᴀ',
- wm: ''-'_꩜ 𝘚𝘪𝘭𝘢𝘯𝘢 𝘣𝘰𝘵 ꩜_'-'',
+ packname: 'sticker by MOSHIREF-BOT',
+ author: 'MoustafaShiref',
+ namebot: 'MOSHIREF-BOT',
+ wm: ''-'_꩜ MOSHIREF-BOT ꩜_'-'',
  stickpack: 'Whatsapp',
- stickauth: 'ꜱɪʟᴀɴᴀ ʙᴏᴛ '
+ stickauth: 'MOSHIREF-BOT '
 }
 
 // Thumbnail 
@@ -46,9 +46,9 @@ global.media = {
 
 // Sosmed
 global.url = {
- sig: 'https://instagram.com/noureddine_ouafy',
- sgh:  'https://github.com/noureddineouafy',
- sgc: 'https://chat.whatsapp.com/DABxracGsi5CQMd5d1N1j7'
+ sig: 'https://instagram.com/moustafa_shiref',
+ sgh:  'https://github.com/',
+ sgc: 'https://api.whatsapp.com/send?phone=+201022647804'
 }
 
 global.wait =` انتظر .. أنا أحاول تلبية طلبك ...`
@@ -56,7 +56,7 @@ global.wait =` انتظر .. أنا أحاول تلبية طلبك ...`
 // Info Wait
 global.msg = {
  wait: '⏱️ *Please be patient*\n\> Running command from *User*!',
- eror: '🤖*Bot Information*\n\> Sorry for the inconvenience in using *Bobiza Bot*. There was an error in the system while executing the command.'
+ eror: '🤖*Bot Information*\n\> Sorry for the inconvenience in using *MOSHIREF-BOT*. There was an error in the system while executing the command.'
 }
 
 global.multiplier = 69
