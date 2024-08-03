@@ -6,7 +6,7 @@ let handler = async (m, { conn, text, command, usedPrefix }) => {
 
     let menu = `╮────────────────────────╭ـ\n│مرحبا : ~@${m.sender.split("@")[0]}~\n╯────────────────────────╰ـ \n`;
 
-    let pp = 'https://telegra.ph/file/ba984d78fa802662438ee.jpg';
+    let pp = 'https://telegra.ph/file/79bc359ea5b8a38473c78.jpg';
 
     const cap = `${menu}\n╮────────────────────────╭ــ\n│ *أنا خدمة Fake Number Ai*\n│ خدمة قادرة على صنع الأرقام الوهمية.\n│[دولة] لعرض قائمة الدول.\n│[أرقام] لعرض قائمة الأرقام للدولة.\n│[رسائل] لعرض قائمة الرسائل للرقم \n│[كود] لنسخ كود الرسالة المحددة\n╯────────────────────────╰ـ`;
 
@@ -19,7 +19,7 @@ let handler = async (m, { conn, text, command, usedPrefix }) => {
     let additionalLink = args.join(" ").trim(); 
     
     if (!lister.includes(feature)) {
-        return conn.sendButton(m.chat, cap, '𝑺𝐻𝐴𝑊𝐴𝑍𝐴-𝐵𝛩𝑇', pp, [['دولـة',`${usedPrefix + command} دولة`]], null, null, m);
+        return conn.sendButton(m.chat, cap, 'MOSHIREF-BOT', pp, [['دولـة',`${usedPrefix + command} دولة`]], null, null, m);
     }
 
     if (feature === "دولة") {
@@ -71,7 +71,7 @@ let handler = async (m, { conn, text, command, usedPrefix }) => {
     message: {
       interactiveMessage: {
         body: { text: caption },
-        footer: { text: '𝑺𝐻𝐴𝑊𝐴𝑍𝐴-𝐵𝛩𝑇' },
+        footer: { text: 'MOSHIREF-BOT' },
         header: {
           hasMediaAttachment: true,
           imageMessage: media.imageMessage,
@@ -108,7 +108,7 @@ return await conn.relayMessage(m.chat, msg.message, { messageId: msg.key.id });
 
         } catch (error) {
             console.log(error);
-            return conn.sendButton(m.chat, `╮────────────────────────╭ـ\n│ حدث خطأ أثناء جلب البيانات. حاول مرة أخرى لاحقًا.\n╯────────────────────────╰ـ `, '𝑺𝐻𝐴𝑊𝐴𝑍𝐴-𝐵𝛩𝑇', pp, [['حاول مجددا',`${usedPrefix + command} دولة`]], null, null, m);
+            return conn.sendButton(m.chat, `╮────────────────────────╭ـ\n│ حدث خطأ أثناء جلب البيانات. حاول مرة أخرى لاحقًا.\n╯────────────────────────╰ـ `, 'MOSHIREF-BOT', pp, [['حاول مجددا',`${usedPrefix + command} دولة`]], null, null, m);
         }
     } else if (feature === "أرقام") {
         if (!additionalLink) {
@@ -154,7 +154,7 @@ return await conn.relayMessage(m.chat, msg.message, { messageId: msg.key.id });
     message: {
       interactiveMessage: {
         body: { text: caption },
-        footer: { text: '𝑺𝐻𝐴𝑊𝐴𝑍𝐴-𝐵𝛩𝑇' },
+        footer: { text: 'MOSHIREF-BOT' },
         header: {
           hasMediaAttachment: true,
           imageMessage: media.imageMessage,
@@ -191,7 +191,7 @@ return await conn.relayMessage(m.chat, msg.message, { messageId: msg.key.id });
 
         } catch (error) {
             console.log(error);
-            return conn.sendButton(m.chat, `╮────────────────────────╭ـ\n│ حدث خطأ أثناء جلب البيانات. حاول مرة أخرى لاحقًا.\n╯────────────────────────╰ـ `, '𝑺𝐻𝐴𝑊𝐴𝑍𝐴-𝐵𝛩𝑇', pp, [['حاول مجددا',`${usedPrefix + command} أرقام ${additionalLink}`]], null, null, m);
+            return conn.sendButton(m.chat, `╮────────────────────────╭ـ\n│ حدث خطأ أثناء جلب البيانات. حاول مرة أخرى لاحقًا.\n╯────────────────────────╰ـ `, 'MOSHIREF-BOT', pp, [['حاول مجددا',`${usedPrefix + command} أرقام ${additionalLink}`]], null, null, m);
         }
 
     } else if (feature === "رسائل") {
@@ -236,7 +236,7 @@ return await conn.relayMessage(m.chat, msg.message, { messageId: msg.key.id });
     message: {
       interactiveMessage: {
         body: { text: caption },
-        footer: { text: '𝑺𝐻𝐴𝑊𝐴𝑍𝐴-𝐵𝛩𝑇' },
+        footer: { text: 'MOSHIREF-BOT' },
         header: {
           hasMediaAttachment: true,
           imageMessage: media.imageMessage,
@@ -273,7 +273,7 @@ return await conn.relayMessage(m.chat, msg.message, { messageId: msg.key.id });
 
         } catch (error) {
             console.log(error);
-            return conn.sendButton(m.chat, `╮────────────────────────╭ـ\n│ حدث خطأ أثناء جلب البيانات. حاول مرة أخرى لاحقًا.\n╯────────────────────────╰ـ `, '𝑺𝐻𝐴𝑊𝐴𝑍𝐴-𝐵𝛩𝑇', pp, [['حاول مجددا',`${usedPrefix + command} رسائل ${additionalLink}`]], null, null, m);
+            return conn.sendButton(m.chat, `╮────────────────────────╭ـ\n│ حدث خطأ أثناء جلب البيانات. حاول مرة أخرى لاحقًا.\n╯────────────────────────╰ـ `, 'MOSHIREF-BOT', pp, [['حاول مجددا',`${usedPrefix + command} رسائل ${additionalLink}`]], null, null, m);
         }
         
         
