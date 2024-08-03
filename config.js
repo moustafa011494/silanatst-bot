@@ -18,7 +18,7 @@ global.info = {
  nomerbot: '201122522729',
  pairingNumber: '201022647804',
  nameown: 'MoustafaShiref',
- nomerown: '212717457920',
+ nomerown: '20122647804',
  packname: 'sticker by MOSHIREF-BOT',
  author: 'MoustafaShiref',
  namebot: 'MOSHIREF-BOT',
