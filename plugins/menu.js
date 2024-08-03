@@ -106,7 +106,7 @@ let handler = async (m, { conn, usedPrefix, command, __dirname, isOwner, isMods,
     let totalreg = Object.keys(global.db.data.users).length
     let rtotalreg = Object.values(global.db.data.users).filter(user => user.registered == true).length
     let listCmd =  `
-> ᴍʏ ɴᴀᴍᴇ ɪꜱ ꜱɪʟᴀɴᴀ ʙᴏᴛ ɪ'ᴍ ᴀ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴀʀᴛɪꜰɪᴄɪᴀʟ ɪɴᴛᴇʟʟɪɢᴇɴᴄᴇ. ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴍᴜʟᴛɪᴘʟᴇ ꜱᴇʀᴠɪᴄᴇꜱ. ɪ ᴡᴀꜱ ᴄʀᴇᴀᴛᴇᴅ ʙʏ @ɴᴏᴜʀᴇᴅᴅɪɴᴇ_ᴏᴜᴀꜰʏ
+> ᴍʏ ɴᴀᴍᴇ ɪꜱ ꜱɪʟᴀɴᴀ ʙᴏᴛ ɪ'ᴍ ᴀ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴀʀᴛɪꜰɪᴄɪᴀʟ ɪɴᴛᴇʟʟɪɢᴇɴᴄᴇ. ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴍᴜʟᴛɪᴘʟᴇ ꜱᴇʀᴠɪᴄᴇꜱ. ɪ ᴡᴀꜱ ᴄʀᴇᴀᴛᴇᴅ ʙʏ @moustafa_shiref
 
 
 > ▧ Uptime : ${muptime}
