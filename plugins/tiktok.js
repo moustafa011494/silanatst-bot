@@ -6,7 +6,7 @@ if (!text) return m.reply('ex: .' + usedPrefix + ' https://vt.tiktok.com/ZSFKS4D
 try {
 m.reply(wait)
 let { media, status, isSlide, title } = await tiktok(text);
-if (status !== 200) throw 'هناك خطأ في النظام راسل  نورالدين ';
+if (status !== 200) throw 'هناك خطأ في النظام راسل مصطفي ';
 let no = 1
 if (isSlide) {
 for (let res of media) {
