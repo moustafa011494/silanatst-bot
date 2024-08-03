@@ -11,7 +11,7 @@ const defaultMenu = {
   before: `
 > *ᴍʏ ɴᴀᴍᴇ ɪꜱ ꜱɪʟᴀɴᴀ ʙᴏᴛ ɪ'ᴍ ᴀ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴀʀᴛɪꜰɪᴄɪᴀʟ ɪɴᴛᴇʟʟɪɢᴇɴᴄᴇ. ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴍᴜʟᴛɪᴘʟᴇ ꜱᴇʀᴠɪᴄᴇꜱ. ɪ ᴡᴀꜱ ᴄʀᴇᴀᴛᴇᴅ ʙʏ @moustafa_shiref*
 
-> ▧ Salam : %name
+> ▧ alslam : %name
 > ▧ Uptime : %muptime
 
 %readmore`.trimStart(),
@@ -137,7 +137,7 @@ let handler = async (m, { conn, usedPrefix, command, __dirname, isOwner, isMods,
    // let hwaifu = JSON.parse(fs.readFileSync('./json/hwaifu.json', 'utf-8'))
 
     if (teks == '404') {
-        return conn.sendButtonImg(m.chat, 'https://telegra.ph/file/5dbcf152d3991a9b81f60.jpg', "", listCmd.trim(), " ", buttons, m, { 
+        return conn.sendButtonImg(m.chat, 'https://telegra.ph/file/84ee4bc22ea38173b60ef.jpg', "", listCmd.trim(), " ", buttons, m, { 
             contextInfo: {
                 mentionedJid: [m.sender],
             }
@@ -217,9 +217,9 @@ let handler = async (m, { conn, usedPrefix, command, __dirname, isOwner, isMods,
 						title: `إضغط هنا لمتابعة صانع البوت في حسابه `,
 						containsAutoReply: true,
 						mediaType: 1,
-						thumbnailUrl: `https://telegra.ph/file/b306e14fc211f1e47875a.jpg`,
+						thumbnailUrl: `https://telegra.ph/file/84ee4bc22ea38173b60ef.jpg`,
 						mediaUrl: ``,
-						sourceUrl: "https://instagram.com/noureddine_ouafy",
+						sourceUrl: "https://instagram.com/moustafa_shiref",
 					},
 				},
 			},
