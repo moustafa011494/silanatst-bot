@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const handler = async (m, { text, usedPrefix, command }) => {
-  if (!text) throw `مثال : \n\n ${usedPrefix + command} الرباط`;
+  if (!text) throw `مثال : \n\n ${usedPrefix + command} القاهره`;
   let res = await jadwalsholat(text);
   conn.reply(m.chat,
     `جدول الصلاة في ${text}
@@ -10,7 +10,7 @@ const handler = async (m, { text, usedPrefix, command }) => {
     الظهر : ${res.dhuhur}
     العصر : ${res.ashar}
     المغرب : ${res.maghrib}
-    العشاء : ${res.isya}\n\n\n\n\n\n\n\n instagram :@noureddine_ouafy`, m);
+    العشاء : ${res.isya}\n\n\n\n\n\n\n\n instagram :@moustafa_shiref`, m);
 }
 
 handler.help = ['salaty'];
